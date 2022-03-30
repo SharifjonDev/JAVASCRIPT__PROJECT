@@ -1,0 +1,125 @@
+html {
+  font-size: 75.5%px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+  color: #242824;
+  background: rgba(255, 255, 255, 0.815);
+}
+
+main {
+  width: 100%;
+}
+.header h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: 500;
+  color: gray;
+}
+.document {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  width: auto;
+  border: 1px solid black;
+  border-radius: 12px;
+  width: 300px;
+  height: 435px;
+  padding: 7px;
+  overflow: hidden;
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__body h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+input {
+  font-size: 22px;
+  color: green;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid red;
+  text-transform: capitalize;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+input::placeholder {
+  color: rgb(41, 194, 41);
+}
+
+textarea {
+  font-size: 18px;
+  color: green;
+  border: 1px solid #242824;
+  outline: none;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 85px;
+}
+textarea::placeholder {
+  color: rgb(41, 194, 41);
+}
+
+#add {
+  font-size: 21px;
+  font-weight: 500;
+  color: re;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 32px;
+}
+
+.card__menu ul {
+  padding: 0;
+  list-style: none;
+}
+
+li h3,
+li .date--deadline {
+  font-size: 20px;
+  color: #242824;
+  font-weight: 500;
+}
+li p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.btn__doing {
+  padding: 10px 15px;
+  color: white;
+  background: green;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+}
+
+.card__menu {
+  max-height: 300px;
+  overflow: auto;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#done ul li h3,
+#done ul li .date--deadline {
+  color: green;
+}
+#missed ul li h3,
+#missed ul li .date--deadline {
+  color: red;
+}

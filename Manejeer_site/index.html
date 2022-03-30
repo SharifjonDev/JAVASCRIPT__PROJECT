@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical Job</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main>
+      <section class="header">
+        <h1>Control Panel</h1>
+      </section>
+      <section class="document">
+        <div class="card">
+          <form class="card__body" name="addForm">
+            <h2>New worker</h2>
+            <label for="name"></label>
+            <input
+              type="text"
+              placeholder="Employee name"
+              id="name"
+              name="staff"
+            />
+            <label for="comment"></label>
+            <textarea id="comment" placeholder="Type of work"></textarea>
+            <label for="date"></label>
+            <input type="date" id="date" placeholder="mm/dd/yyyy" />
+            <button id="add" type="submits">Add</button>
+          </form>
+        </div>
+        <div class="card">
+          <div class="card__body">
+            <h2>Information</h2>
+            <div class="card__menu" id="process"></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__body">
+            <h2>Successful</h2>
+            <div class="card__menu" id="done"></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__body">
+            <h2>Missed</h2>
+            <div class="card__menu" id="missed"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script defer src="main.js"></script>
+</html>
