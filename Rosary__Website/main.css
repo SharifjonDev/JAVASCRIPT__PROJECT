@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.rosary {
+  width: 330px;
+  height: 364px;
+  background-color: coral;
+  border: 1px solid chocolate;
+  border-radius: 20%;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+}
+
+.screen {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 50px;
+  border-radius: 9%;
+  caret-color: white; /*Bu inputni tayoqchasini yo'qatib qo'yadi*/
+  border: 1px solid floralwhite;
+  outline: none;
+  text-align: center;
+  font-size: 55px;
+}
+
+.btn {
+  position: absolute;
+  top: 31%;
+  left: 32%;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: gray;
+  border-color: gray;
+}
+
+.close-btn {
+  position: absolute;
+  top: 75%;
+  left: 41%;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: burlywood;
+  border-color: gray;
+}
+
+@media only screen and (max-width: 768px) {
+  .rosary {
+    width: 222px;
+    height: 250px;
+    left: 22%;
+  }
+  .screen {
+    height: 42px;
+    font-size: 42px;
+  }
+  .btn {
+    top: 35%;
+    left: 32%;
+    width: 80px;
+    height: 80px;
+  }
+  .close-btn {
+    top: 73%;
+    left: 38%;
+    width: 50px;
+    height: 50px;
+  }
+}
