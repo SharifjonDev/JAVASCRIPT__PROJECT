@@ -1,0 +1,987 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  outline: none;
+  box-shadow: unset !important;
+}
+
+html {
+  font-family: "TT_Commons_Mediums";
+}
+
+header .background_header {
+  height: 85vh;
+  border-bottom: 200px solid transparent;
+  border-left: 98.9vw solid #00cdac;
+  position: relative;
+}
+
+header .navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1111;
+}
+
+header .mobile {
+  display: none;
+  background-color: unset;
+  border: none;
+  background-image: unset;
+  box-shadow: none;
+  width: 76px;
+  box-shadow: none;
+  outline: unset;
+}
+
+header .header_shrink {
+  background-color: #fff;
+}
+
+header nav .collapse .navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav .collapse .navbar-nav .nav-item {
+  padding: 0 2rem;
+}
+
+header nav .collapse .navbar-nav .nav-item .nav-link {
+  padding: 0;
+  font-size: 1rem;
+  color: black;
+}
+
+header nav .collapse .navbar-nav .nav-item .phone {
+  width: 15px;
+  margin-right: 10px;
+}
+
+header nav .collapse .navbar-nav .nav-item .form-select {
+  background-color: unset;
+  border: unset;
+  background-image: unset;
+  box-shadow: none;
+}
+
+header nav .collapse .navbar-nav .nav-item .line1 {
+  border-bottom: 1px solid #000;
+  height: 2px;
+  width: 2.5rem;
+  margin-bottom: 8px;
+}
+
+header nav .collapse .navbar-nav .nav-item .line2 {
+  border-bottom: 1px solid #000;
+  height: 2px;
+  width: 1.7rem;
+}
+
+header .header_content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+header .header_content .header_title {
+  font-family: "TT_Commons_Mediums";
+  font-size: 5rem;
+  text-align: end;
+  padding-left: 300px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+header .header_content .header_info p {
+  font-size: 1rem;
+  width: 360px;
+  margin-top: 200px;
+  margin-bottom: 150px;
+}
+
+header .header_content .header_info .btn-black {
+  font-family: "TT_Commons_Mediums";
+  font-size: 1.1rem;
+  background: #000;
+  color: #fff;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  opacity: 0.9;
+  transition: 0.5s;
+}
+
+header .header_content .header_info .btn-black:hover {
+  transform: scale(1.2) translate(45px);
+}
+
+.reacliz-category {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.reacliz-category .realiz_title h1 {
+  font-family: "TT_Commons_Mediums";
+  font-size: 7rem;
+  font-weight: 400;
+}
+
+.reacliz-category .realiz_title p {
+  font-family: "TT_Commons_Mediums";
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.reacliz-category .realiz_info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 140px;
+  row-gap: 30px;
+  font-family: "TT_Commons_Mediums";
+}
+
+.reacliz-category .realiz_info .realiz_content h3 {
+  font-family: "TT_Commons_Mediums";
+  font-size: 3rem;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+
+.reacliz-category .realiz_info .realiz_content p {
+  font-size: 1rem;
+  line-height: 20px;
+  margin-bottom: 5px;
+  padding-right: 20px;
+}
+
+.reacliz-category .btn-center {
+  font-family: "TT_Commons_Mediums";
+  font-weight: 900;
+  border: 1px solid rgb(158, 158, 158);
+  border-radius: 32px;
+  padding: 10px 2rem;
+  margin-top: 70px;
+  position: relative;
+  transition: 0.4s;
+}
+
+.reacliz-category .btn-center::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 32px;
+  width: 100%;
+  height: 0;
+  background-color: #00cdac;
+  z-index: -1;
+  transition: 0.4s;
+}
+
+.reacliz-category .btn-center:hover::before {
+  height: 100%;
+}
+
+.reacliz-category .btn-center:hover {
+  color: #fff;
+}
+
+.correction .correction_title {
+  font-family: "TT_Commons_Mediums";
+  font-size: 1.5rem;
+}
+
+.correction .correction_info span {
+  font-family: "TT_Commons_Mediums";
+  font-size: 1.2rem;
+  padding-right: 10px;
+}
+
+.correction .correction_info h5 {
+  font-family: "TT_Commons_Mediums";
+  font-size: 1.7rem;
+}
+
+.correction .btn-service {
+  font-family: "TT_Commons_Mediums";
+  font-weight: 600;
+  border: 1px solid rgb(158, 158, 158);
+  border-radius: 32px;
+  padding: 10px 1.2rem;
+  margin-top: 80px;
+  position: relative;
+}
+
+.correction .btn-service::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 32px;
+  width: 0%;
+  height: 100%;
+  background-color: #00cdac;
+  z-index: -1;
+  transition: 0.4s;
+}
+
+.correction .btn-service:hover::before {
+  width: 100%;
+}
+
+.correction .btn-service:hover {
+  color: #fff;
+}
+
+.houses_category {
+  margin: 150px 0;
+}
+
+.houses_category .hause_title {
+  font-family: "TT_Commons_Mediums";
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+
+.houses_category .house_content {
+  margin-bottom: 30px;
+}
+
+.houses_category .house_content img {
+  width: 95%;
+  height: 350px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.houses_category .house_content h4 {
+  font-family: "TT_Commons_Mediums";
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.houses_category .house_content p {
+  font-family: "TT_Commons_Mediums";
+  font-size: 1rem;
+  opacity: 0.7;
+}
+
+.houses_category .btn-all {
+  font-family: "TT_Commons_Mediums";
+  background-color: #000;
+  color: rgba(255, 255, 255, 0.818);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transition: 0.6s;
+}
+
+.houses_category .btn-all:hover {
+  transform: scale(1.2) translate(45px);
+  color: #fff;
+}
+
+.partners_container .partners_title {
+  font-family: "TT_Commons_Mediums";
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.partners_container .grid_img_content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px;
+  margin: 0 100px;
+}
+
+.partners_container .grid_img_content img {
+  width: 120px;
+  height: 65px;
+}
+
+.partners_container .btn-client {
+  font-family: "TT_Commons_Mediums";
+  font-weight: 600;
+  border: 1px solid rgb(158, 158, 158);
+  border-radius: 32px;
+  padding: 10px 2rem;
+  margin-top: 100px;
+  position: relative;
+}
+
+.partners_container .btn-client::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 32px;
+  width: 100%;
+  height: 0;
+  background-color: #00cdac;
+  z-index: -1;
+  transition: 0.4s;
+}
+
+.partners_container .btn-client:hover::before {
+  height: 100%;
+}
+
+.partners_container .btn-client:hover {
+  color: #fff;
+}
+
+.realEstate .realEstate_content {
+  margin-top: 100px;
+  color: #fff;
+  position: relative;
+  bottom: -50px;
+  font-family: "TT_Commons_Mediums";
+  opacity: 0.9;
+}
+
+.realEstate .realEstate_content .background_black {
+  height: 60vh;
+  border-bottom: 200px solid transparent;
+  border-left: 85vw solid #000;
+  z-index: 0;
+}
+
+.realEstate .realEstate_content .realEstate_title {
+  position: absolute;
+  top: 0;
+  padding: 60px;
+}
+
+.realEstate .realEstate_content .realEstate_title .btn-solution {
+  border: 1.5px solid #fff;
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  transition: 0.5s;
+}
+
+.realEstate .realEstate_content .realEstate_title .btn-solution:hover {
+  transform: scale(1.2);
+}
+
+.realEstate .realEstate_content .realEstate_title .d-flex h1 {
+  font-size: 3.2rem;
+  line-height: 60px;
+  margin-bottom: 20px;
+  width: 550px;
+}
+
+.realEstate .realEstate_content .realEstate_title .d-flex .btn-arrow {
+  color: #fff;
+  border: 1px solid #fff;
+  width: 70px;
+  height: 70px;
+  font-size: 2rem;
+  border-radius: 50%;
+  transition: 0.5s;
+  opacity: 0.8;
+}
+
+.realEstate .realEstate_content .realEstate_title .d-flex .btn-arrow:hover {
+  transform: translate(30px);
+}
+
+.realEstate .realEstate_content .realEstate_title p {
+  font-size: 1rem;
+  margin-bottom: 0;
+  opacity: 0.7;
+  width: 350px;
+}
+
+footer {
+  position: relative;
+  font-family: "TT_Commons_Mediums";
+}
+
+footer .background {
+  border-top: 250px solid transparent;
+  border-right: 98.9vw solid #00cdac;
+  height: 80vh;
+  opacity: 0.5;
+}
+
+footer .footer_left,
+footer .footer_right {
+  position: absolute;
+  top: 320px;
+}
+
+footer .footer_left div {
+  margin-bottom: 30px;
+}
+
+footer .footer_left div h5 {
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+footer .footer_left div p {
+  font-size: 1rem;
+  margin-bottom: 0;
+  opacity: 0.8;
+}
+
+footer .footer_left .footer_icons span {
+  border: 1px solid rgb(83, 82, 82);
+  padding: 10px 14px 12px 14px;
+  border-radius: 50%;
+  margin-right: 30px;
+  transition: 0.5s;
+  opacity: 0.8;
+}
+
+footer .footer_left .footer_icons span:hover {
+  padding: 14px 20px 16px 20px;
+}
+
+footer .footer_left .footer_icons span img {
+  width: 17px;
+}
+
+footer .footer_right h2 {
+  font-size: 3.5rem;
+  padding-right: 300px;
+  margin-bottom: 20px;
+}
+
+footer .footer_right .btn-black {
+  font-size: 1rem;
+  color: #fff;
+  background-color: #000;
+  border-radius: 32px;
+  padding: 10px 40px;
+  transition: 0.5s;
+}
+
+footer .footer_right .btn-black:hover {
+  transform: translateY(20px);
+}
+
+@media only screen and (min-width: 720px) and (max-width: 960px) {
+  header .background_header {
+    height: 55vh;
+    border-left: 100vw solid #00cdac;
+  }
+
+  header .navbar {
+    background-color: #fff;
+  }
+
+  header .mobile {
+    display: block;
+  }
+
+  header nav .navbar-toggler img {
+    width: 20px !important;
+  }
+
+  header nav .collapse .navbar-nav {
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+
+  header nav .collapse .navbar-nav .nav-item {
+    padding: 0.5rem 0;
+  }
+
+  header nav .collapse .navbar-nav .nav-item .form-select {
+    display: none;
+  }
+
+  header .header_content {
+    position: absolute;
+    top: 100px;
+  }
+
+  header .header_content .header_title {
+    font-size: 4rem;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+  header .header_content .header_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header .header_content .header_info p {
+    font-size: 1rem;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .reacliz-category {
+    margin-top: 60px;
+    margin-bottom: 100px;
+  }
+
+  .reacliz-category .realiz_title {
+    margin-bottom: 20px;
+  }
+  .reacliz-category .realiz_title h1 {
+    font-size: 5.5rem;
+  }
+
+  .reacliz-category .realiz_title p {
+    font-size: 0.9rem;
+
+    margin-bottom: 0;
+  }
+
+  .reacliz-category .realiz_info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 140px;
+    row-gap: 30px;
+  }
+
+  .reacliz-category .realiz_info .realiz_content h3 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+  }
+
+  .reacliz-category .realiz_info .realiz_content p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+
+  .reacliz-category .btn-center {
+    border: 1px solid rgb(158, 158, 158);
+    border-radius: 32px;
+    padding: 10px 2rem;
+    margin-top: 70px;
+  }
+
+  .correction .correction_title {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .correction .correction_info span {
+    font-size: 1rem;
+    padding-right: 10px;
+  }
+
+  .correction .correction_info h5 {
+    font-size: 1.5rem;
+  }
+
+  .correction .btn-service {
+    border: 1px solid rgb(158, 158, 158);
+    border-radius: 32px;
+    padding: 10px 2rem;
+    margin-top: 80px;
+  }
+
+  .houses_category {
+    margin: 100px 0;
+  }
+
+  .houses_category .hause_title {
+    font-size: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .houses_category .house_content {
+    margin-bottom: 30px;
+  }
+
+  .houses_category .house_content img {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 1rem;
+  }
+
+  .houses_category .house_content h4 {
+    font-size: 1.7rem;
+  }
+
+  .houses_category .house_content p {
+    font-size: 0.8rem;
+    opacity: 0.7;
+  }
+
+  .houses_category .btn-all {
+    background-color: #000;
+    color: #fff;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  .partners_container .partners_title {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+  }
+
+  .partners_container .grid_img_content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+    margin: 0 40px;
+  }
+
+  .partners_container .grid_img_content img {
+    width: 120px;
+    height: 65px;
+  }
+
+  .partners_container .btn-client {
+    border: 1px solid rgb(158, 158, 158);
+    border-radius: 32px;
+    padding: 10px 2rem;
+    margin-top: 100px;
+  }
+
+  .realEstate .realEstate_content {
+    margin-top: 100px;
+    color: #fff;
+    position: relative;
+    bottom: -80px;
+  }
+
+  .realEstate .realEstate_content .background_black {
+    height: 35vh;
+    border-bottom: 200px solid transparent;
+    border-left: 85vw solid #000;
+  }
+
+  .realEstate .realEstate_content .realEstate_title {
+    padding: 40px;
+  }
+
+  .realEstate .realEstate_content .realEstate_title .btn-solution {
+    border: 1px solid rgb(168, 168, 168);
+  }
+
+  .realEstate .realEstate_content .realEstate_title .d-flex h1 {
+    font-size: 2rem;
+    line-height: 40px;
+    width: 500px;
+  }
+
+  .realEstate .realEstate_content .realEstate_title .d-flex .btn-arrow {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+  }
+
+  .realEstate .realEstate_content .realEstate_title p {
+    font-size: 1rem;
+    margin-bottom: 0;
+    opacity: 0.7;
+    width: 400px;
+  }
+
+  footer {
+    position: relative;
+  }
+
+  footer .background {
+    border-top: 250px solid transparent;
+    border-right: 100vw solid #00cdac;
+    height: 45vh;
+  }
+
+  footer .footer_left,
+  footer .footer_right {
+    position: absolute;
+    top: 250px;
+  }
+
+  footer .footer_right {
+    left: 400px;
+  }
+
+  footer .footer_left div {
+    margin-bottom: 20px;
+  }
+
+  footer .footer_left div h5 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  footer .footer_left .footer_icons span {
+    padding: 8px 12px 10px 12px;
+    margin-right: 20px;
+  }
+
+  footer .footer_left .footer_icons span img {
+    width: 15px;
+  }
+
+  footer .footer_right h2 {
+    font-size: 2rem;
+    padding-right: 120px;
+    margin-bottom: 20px;
+  }
+
+  footer .footer_right .btn-black {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  header .background_header {
+    height: 50vh;
+    border-left: 100vw solid #00cdac;
+    border-bottom: 100px solid transparent !important;
+  }
+
+  header .navbar {
+    background-color: #fff;
+  }
+
+  header .mobile {
+    display: block;
+  }
+
+  header nav .navbar-toggler img {
+    width: 15px !important;
+  }
+
+  header nav .collapse .navbar-nav {
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+
+  header nav .collapse .navbar-nav .nav-item {
+    padding: 0.5rem 0;
+  }
+
+  header nav .collapse .navbar-nav .nav-item .form-select {
+    display: none;
+  }
+
+  header .header_content {
+    top: 100px;
+  }
+
+  header .header_content .header_title {
+    font-size: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  header .header_content .header_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header .header_content .header_info p {
+    font-size: 0.7rem;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 200px;
+  }
+
+  header .header_content .header_info .btn-black {
+    font-size: 0.7rem;
+    width: 100px;
+    height: 100px;
+  }
+
+  .reacliz-category {
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
+
+  .reacliz-category .realiz_title {
+    margin-bottom: 20px;
+  }
+  .reacliz-category .realiz_title h1 {
+    font-size: 3.5rem;
+  }
+
+  .reacliz-category .realiz_title p {
+    font-size: 0.7rem;
+  }
+
+  .reacliz-category .realiz_info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .reacliz-category .realiz_info .realiz_content h3 {
+    font-size: 1.7rem;
+  }
+
+  .reacliz-category .realiz_info .realiz_content p {
+    font-size: 0.8rem;
+  }
+
+  .reacliz-category .btn-center {
+    margin-top: 50px;
+  }
+
+  .correction .correction_info span {
+    font-size: 0.8rem;
+  }
+
+  .correction .correction_info h5 {
+    font-size: 1.1rem;
+  }
+
+  .correction .btn-service {
+    margin-top: 40px;
+  }
+
+  .houses_category {
+    margin: 60px 0;
+  }
+
+  .houses_category .hause_title {
+    margin-bottom: 1rem;
+  }
+
+  .houses_category .house_content {
+    margin-bottom: 30px;
+  }
+
+  .houses_category .house_content img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 0.5rem;
+  }
+
+  .houses_category .house_content h4 {
+    font-size: 1.5rem;
+  }
+
+  .houses_category .house_content p {
+    font-size: 0.9rem;
+  }
+
+  .houses_category .btn-all {
+    width: 100px;
+    height: 100px;
+    font-size: 0.7rem;
+  }
+
+  .partners_container .partners_title {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .partners_container .grid_img_content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 0 20px;
+  }
+
+  .partners_container .grid_img_content img {
+    width: 60px;
+    height: 30px;
+  }
+
+  .partners_container .btn-client {
+    margin-top: 40px;
+  }
+
+  .realEstate .realEstate_content {
+    margin-top: 0;
+    bottom: -100px;
+  }
+
+  .realEstate .realEstate_content .background_black {
+    height: 35vh;
+    border-bottom: 100px solid transparent;
+    border-left: 93.5vw solid #000;
+  }
+
+  .realEstate .realEstate_content .realEstate_title {
+    padding: 20px;
+  }
+
+  .realEstate .realEstate_content .realEstate_title .btn-solution {
+    border: 1px solid rgb(168, 168, 168);
+    font-size: 0.8rem;
+  }
+
+  .realEstate .realEstate_content .realEstate_title .d-flex h1 {
+    font-size: 1rem;
+    width: 250px;
+    line-height: 20px;
+  }
+
+  .realEstate .realEstate_content .realEstate_title .d-flex .btn-arrow {
+    width: 40px;
+    height: 40px;
+    font-size: 0.8rem;
+  }
+
+  .realEstate .realEstate_content .realEstate_title p {
+    font-size: 0.5rem;
+    width: 200px;
+  }
+
+  footer .background {
+    border-top: 130px solid transparent;
+    border-right: 100vw solid #00cdac;
+    height: 70vh;
+  }
+
+  footer .footer_left,
+  footer .footer_right {
+    position: absolute;
+    top: 150px;
+  }
+
+  footer .footer_right {
+    left: 12px;
+    top: 350px;
+  }
+
+  footer .footer_left div {
+    margin-bottom: 20px;
+  }
+
+  footer .footer_left div h5 {
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+  }
+
+  footer .footer_left .footer_icons span {
+    padding: 4px 10px 6px 10px;
+    margin-right: 10px;
+  }
+
+  footer .footer_left .footer_icons span img {
+    width: 10px;
+  }
+
+  footer .footer_right h2 {
+    font-size: 1.2rem;
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  footer .footer_right .btn-black {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}
